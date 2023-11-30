@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>view reminder</title>
+    <style>
+      .b1 {
+        background-color: rgb(38, 35, 220);
+        width: 200px;
+        height: 40px;
+        position: relative;
+        right: 430px;
+        top: 50px;
+      }
+      .b2 {
+        position: relative;
+        top: 30px;
+        left: 1100px;
+      }
+      #in1 {
+        position: relative;
+        left: 255px;
+      }
+      #l1 {
+        position: relative;
+        left: 255px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>view your Reminder</h2>
+    <!-- <form action="post"> -->
+    select from Date:<input type="date" id="in2" />
+    <label for="date" id="l1">select to Date:</label
+    ><input type="date" id="in1" /><br /><br />
+    <br />
+    <label for="subject"> subject:</label>
+    <select name="subject" id="subject">
+      <option value="java">java</option>
+      <option value="python">python</option>
+      <option value="cpp">cpp</option></select
+    ><br /><br />
+    Reminder Name:
+    <select name="Reminder" id="">
+      <option value="cpp">cpp</option>
+      <option value="java">java</option>
+      <option value="python">python</option></select
+    ><br /><br />
+    <textarea
+      name=""
+      id=""
+      cols="30"
+      rows="10"
+      placeholder=" Reminder Descrption"
+    ></textarea
+    ><br /><br />
+    Email Address:
+    <input type="email" /><br /><br />
+    Contact No:
+    <input type="text" /><br /><br />
+    SMS No:
+    <input type="text" /><br /><br />
+    Status:
+    <input type="text" /><br /><br />
+    Recurrence frequency:<input type="checkbox" />7 Days
+    <input type="checkbox" />5 Days <input type="checkbox" />3 Days
+    <input type="checkbox" />2 Days
+    <a href="login.html"> <button class="b1">Back</button></a>
+    <a href="delete_reminder.html"
+      ><button class="b1">Delete Reminder</button></a
+    >
+    <a href="Disable_reminder.html">
+      <button class="b1">Disable Reminder</button></a
+    >
+    <a href="Modify_reminder.html">
+      <button class="b1">Modify Reminder</button></a
+    >
+    <a href="logout.html"> <button class="b2">Log out</button></a>
+    <!-- </form> -->
+  </body>
+</html>

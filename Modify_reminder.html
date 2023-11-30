@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>modify_reminder</title>
+    <style>
+      .b1 {
+        background-color: rgb(38, 35, 220);
+        width: 100px;
+        height: 40px;
+        position: relative;
+        right: 370px;
+        top: 50px;
+      }
+      button {
+        position: relative;
+        top: 50px;
+        right: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Modify Reminder</h2>
+    <form action="post">
+      select a Date:<input type="date" /><br /><br />
+      <label for="subject"> select subject:</label>
+      <select name="subject" id="subject">
+        <option value="java">java</option>
+        <option value="python">python</option>
+        <option value="cpp">cpp</option></select
+      ><br /><br />
+      Reminder:
+      <select name="Reminder" id="">
+        <option value="cpp">cpp</option>
+        <option value="java">java</option>
+        <option value="python">python</option></select
+      ><br /><br />
+      Add descrption: <input type="text area" /><br /><br />
+      Email Address:
+      <input type="email" /><br /><br />
+      Contact No:
+      <input type="text" /><br /><br />
+      SMS No:
+      <input type="text" /><br /><br />
+      Recur for next:<input type="checkbox" />7 Days <input type="checkbox" />5
+      Days <input type="checkbox" />3 Days <input type="checkbox" />2 Days
+      <a href="login.html"><button class="b1">Back</button></a>
+      <a href="confirm.html"><button class="b1">Confirm</button></a>
+      <a href="logout.html"> <button>Log out</button></a>
+    </form>
+  </body>
+</html>
